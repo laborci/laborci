@@ -39,9 +39,16 @@ graph TD;
 ## YouTube Videó Beágyazása
 
 Itt egy beágyazott YouTube videó:
+---
+## Vizuális reprezentáció
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Fejlesztői környezet](https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80)
+---
+## Bemutató videó
 
+<div style="display: flex; justify-content: center; width: 100%;">
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/jNQXAC9IVRw" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 ---
 
 # Köszönöm a figyelmet!

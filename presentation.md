@@ -1,64 +1,48 @@
-# Üdvözöl a Markdown SlideShow!
-
-Készítette: Reveal.js & Mermaid
-
-## Mit tud ez a rendszer?
-
-* 📝 **Egyszerűség:** Tiszta Markdown alapú szerkesztés.
-
-* 🎨 **Látvány:** Erőteljes Reveal.js motor hajtja.
-
-* 📊 **Diagramok:** Natív Mermaid.js támogatás.
-
-* 🌐 **Dinamikus:** Közvetlen betöltés publikus URL-ekről.
-
-## Mermaid Diagram Példa
-
-Íme egy folyamatábra az alkalmazásod működéséről:
-
-```mermaid
-graph TD
-    A[URL megadása] --> B{GitHub URL?}
-    B -- Igen --> C[Átalakítás Raw URL-re]
-    B -- Nem --> D[Eredeti URL megtartása]
-    C --> E[Letöltés (Fetch API)]
-    D --> E
-    E --> F[Reveal.js Inicializálás]
-    F --> G[Mermaid renderelés]
-    G --> H((Kész Diák))
-```
-
-## Kódblokkok megjelenítése
-
-A technikai prezentációkhoz elengedhetetlen a kódok szép megjelenítése.
-
-```javascript
-// Egy egyszerű példa
-async function fetchMarkdown(url) {
-    const response = await fetch(url);
-    const text = await response.text();
-    console.log("Markdown betöltve!");
-    return text;
-}
-```
-
-## Vertikális diák
-
-A Reveal.js egyik legjobb trükkje.
-**Nyomd meg a LE nyilat a billentyűzeten!** 👇
+# Üdvözlet a Reveal.js Bemutatóban!
+Ez egy bemutató dia.
 
 ---
 
-### Ez egy al-dia
-
-Tökéletes arra, hogy egy témába mélyebben belemenj anélkül, hogy a fő (balról jobbra haladó) sztorit megtörnéd.
+## Miért jó a Reveal.js?
+* Könnyen használható
+* Markdown támogatás
+* Reszponzív dizájn
+* Bővíthetőség
 
 ---
 
-### Még egy al-dia!
+## Kép beillesztése
 
-A továbblépéshez nyomd meg a **FEL** vagy **JOBBRA** nyilat.
+Íme egy szép kép Pécsről:
+
+![Pécs](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/P%C3%A9cs%2C_Sz%C3%A9chenyi_square_2.jpg/1024px-P%C3%A9cs%2C_Sz%C3%A9chenyi_square_2.jpg)
+
+---
+
+## Mermaid Diagram
+
+A Reveal.js alapból nem támogatja a Mermaid-et a beépített Markdown parszolójában külső plugin nélkül.  
+Itt egy képként beillesztett Mermaid diagram alternatíva (vagy HTML-ben is meg lehet oldani egyedi scriptekkel):
+
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
+
+*(Megjegyzés: A Mermaid rendereléshez ebben a HTML fájlban külön inicializáció szükséges, lásd a fájl alját.)*
+
+---
+
+## YouTube Videó Beágyazása
+
+Itt egy beágyazott YouTube videó:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 # Köszönöm a figyelmet!
-
-Mentsd el ezt a fájlt a GitHubodra, és próbáld ki a lejátszódban!
+Kérdések?

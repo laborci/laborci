@@ -15,7 +15,7 @@ Ez egy bemutató dia.
 
 Íme egy szép kép Pécsről:
 
-![Pécs](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/P%C3%A9cs%2C_Sz%C3%A9chenyi_square_2.jpg/1024px-P%C3%A9cs%2C_Sz%C3%A9chenyi_square_2.jpg)
+![Pécs](https://fastly.picsum.photos/id/1018/200/300.jpg)
 
 ---
 
